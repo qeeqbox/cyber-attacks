@@ -1,0 +1,32 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "application's privileges",
+    "adversary's skills"
+  ],
+  "description": "an adversary may inject malicious data into the target app class, method, or field causing it to load or execute non-intened logic",
+  "examples": {},
+  "id": "152a95c0-011c-4a3d-8537-3c781bd841e7",
+  "impact": "high",
+  "names": [
+    "sql injection"
+  ],
+  "redemption": [
+    "whitelist"
+  ],
+  "references": [
+    "https://capec.mitre.org/data/definitions/138.html"
+  ],
+  "related": [
+    "nosql injection"
+  ],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

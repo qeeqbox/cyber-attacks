@@ -1,0 +1,30 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "victim’s interaction",
+    "victim’s browser"
+  ],
+  "description": "an adversary may embed a vulnerable website within a malicious page through an inline frame element (iframe)",
+  "examples": {},
+  "id": "ba30ce60-b0ae-4ab8-ab1d-0e1edde6a615",
+  "impact": "high",
+  "names": [
+    "cross-frame scripting",
+    "xfs"
+  ],
+  "redemption": [
+    "x-frame-options",
+    "content-security-policy",
+    "framebusting"
+  ],
+  "references": [
+    "https://owasp.org/www-community/attacks/cross_frame_scripting"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data"
+  ],
+  "type": "generic"
+}

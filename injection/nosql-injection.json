@@ -1,0 +1,37 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "sql privileges",
+    "adversary's skills"
+  ],
+  "description": "adversary alter not only structured query language (sql) queries causing read, modify and write to the database, or execute administrative commands for furthur chained attacks",
+  "examples": {},
+  "id": "85b0dbbc-1d39-4d96-9816-319276d2c0e2",
+  "impact": "high",
+  "names": [
+    "nosql injection"
+  ],
+  "redemption": [
+    "input validation",
+    "parametrized queries",
+    "stored procedures",
+    "escaping",
+    "web application firewall",
+    "enforcing least privilege"
+  ],
+  "references": [
+    "https://owasp.org/www-pdf-archive/god16-nosql.pdf"
+  ],
+  "related": [
+    "sql injection"
+  ],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

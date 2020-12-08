@@ -1,0 +1,26 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [],
+  "description": "an adversary may uncover hidden application content and functionality by predicting the content location or analyzing the application platform or infrastructure",
+  "examples": {},
+  "id": "9be83c98-2475-432e-9e7b-8618a581ba63",
+  "impact": "vary",
+  "names": [
+    "forced browsing",
+    "forceful browsing",
+    "file enumeration"
+  ],
+  "redemption": [
+    "access control check"
+  ],
+  "references": [
+    "https://www.computerweekly.com/answer/Forced-browsing-Understanding-and-halting-simple-browser-attacks"
+  ],
+  "related": [],
+  "risk": [
+    "data theft"
+  ],
+  "type": "attack"
+}

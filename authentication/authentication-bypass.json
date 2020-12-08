@@ -1,0 +1,30 @@
+{
+  "cia": [
+    "confidentiality",
+  ],
+  "depends on": [
+  ],
+  "description": "an adversary may gain access to data and functionalities by bypassing the target authentication mechanism",
+  "examples": {
+    "1": [
+      "adversary adds login=true parameter to target",
+      "target allows adversary to be authenticated"
+    ]
+  },
+  "id": "0b73c51c-728c-4005-a1f1-84e303bbac1e",
+  "impact": "high",
+  "names": [
+    "authentication bypass attack"
+  ],
+  "redemption": [
+    "validate access control"
+  ],
+  "references": [
+    "https://itlaw.wikia.org/wiki/authentication_bypass"
+  ],
+  "related": [],
+  "risk": [
+    "gain unauthorized access"
+  ],
+  "type": "generic"
+}

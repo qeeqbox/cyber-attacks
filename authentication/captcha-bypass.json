@@ -1,0 +1,34 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "adversary's skills",
+    "captcha solving service"
+  ],
+  "description": "an adversary may bypass the completely automated public turing test to tell computers and humans apart (captcha) by breaking the solving logic, human-assisted solving services or utilizing an automated technology",
+  "examples": {
+    "1": [
+      "an application login contains a disabled button that gets enabled if captcha is solved",
+      "adversary submits the login credentials without using the button or solving the captcha"
+    ]
+  },
+  "id": "d9d7a4e5-dfa6-4d7a-a5c2-65799113437d",
+  "impact": "vary",
+  "names": [
+    "captcha bypass"
+  ],
+  "redemption": [
+    "use authenticator apps",
+    "different captcha",
+    "device fingerprinting"
+  ],
+  "references": [
+    "https://www.perimeterx.com/resources/blog/2020/captchas-hard-for-humans-easy-for-bots/"
+  ],
+  "related": [],
+  "risk": [
+    "gain unauthorized access"
+  ],
+  "type": "generic"
+}

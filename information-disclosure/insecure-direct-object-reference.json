@@ -1,0 +1,26 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [],
+  "description": "an adversary may access an internal object by supplying the object identifier directly",
+  "examples": {},
+  "id": "e1d3ecc2-f33f-4b92-b954-3afb90db64b9",
+  "impact": "critical",
+  "names": [
+    "insecure direct object reference",
+    "idor"
+  ],
+  "redemption": [
+    "input validation",
+    "access control check"
+  ],
+  "references": [
+    "https://www.tutorialspoint.com/security_testing/insecure_direct_object_reference.htm"
+  ],
+  "related": [],
+  "risk": [
+    "data theft"
+  ],
+  "type": "attack"
+}

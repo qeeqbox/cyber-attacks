@@ -1,0 +1,29 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may inject operating system (os) commands on the target server through vulnerable app causing the server to execute the commands",
+  "examples": {},
+  "id": "6a28f150-de44-410c-ad9f-4fbd165c5ee2",
+  "impact": "critical",
+  "names": [
+    "os command injection"
+  ],
+  "redemption": [
+    "input validation"
+  ],
+  "references": [
+    "https://owasp.org/www-community/attacks/command_injection"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

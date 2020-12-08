@@ -1,0 +1,33 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity"
+  ],
+  "depends on": [],
+  "description": "an adversary may perform unauthorized functions belonging to another user with similar privileges level",
+  "examples": {
+    "1": [
+      "adversary adds user=bob parameter as url parameter",
+      "target authorizes adversary to perform functions as bob"
+    ]
+  },
+  "id": "cb8496ab-c8f4-4fda-99a3-37e0b8bc2d55",
+  "impact": "high",
+  "names": [
+    "horizontal privilege escalation",
+    "horizontal access control attack"
+  ],
+  "redemption": [
+    "validate access control",
+    "least privileges"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/privilege_escalation"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "privilege escalation"
+}

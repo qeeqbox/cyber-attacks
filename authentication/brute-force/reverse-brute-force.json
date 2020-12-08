@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "adversary's skills",
+    "brute-force tool"
+  ],
+  "description": "an adversary may guess the target credentials using a collection of passwords with previously obtained collection of usernames",
+  "examples": {},
+  "id": "d8a64ae3-adc3-4c38-ba04-a46946f1be86",
+  "impact": "high",
+  "names": [
+    "reverse brute-force attack"
+  ],
+  "redemption": [
+    "increase password length",
+    "increase password complexity",
+    "limit login attempts",
+    "implement captcha",
+    "multi-factor authentication"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/brute-force_attack"
+  ],
+  "related": [],
+  "risk": [
+    "gain unauthorized access"
+  ],
+  "type": "attack"
+}

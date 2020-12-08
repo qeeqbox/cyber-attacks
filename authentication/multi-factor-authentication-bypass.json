@@ -1,0 +1,42 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "target's infrastructure"
+  ],
+  "description": "an adversary may tamper with the two-factor authentication (2FA) logic causing unauthorized access to the target",
+  "examples": {
+    "1": [
+      "adversary registers and activates two-factor authentication on an application",
+      "adversary logs in to the application and requests a code to be sent",
+      "the application sends the code along with an origin contains the username",
+      "adversary changes the origin value to bob and enters the code",
+      "the application authenticates the adversary as bob"
+    ],
+    "2": [
+      "adversary has a stolen username and password pair for a vulnerable website",
+      "adversary logs in and prompted with a 4 digits activation code",
+      "adversary lunches brute-force against and triggers the right activation code"
+    ]
+  },
+  "id": "58a84977-90e1-4156-a555-8568e83115d0",
+  "impact": "vary",
+  "names": [
+    "two-factor authentication bypass",
+    "multi-factor authentication bypass"
+  ],
+  "redemption": [
+    "use authenticator apps",
+    "increase code length",
+    "use a security key",
+  ],
+  "references": [
+    "https://hubsecurity.io/the-cyber-risks-of-two-factor-authentication/"
+  ],
+  "related": [],
+  "risk": [
+    "gain unauthorized access"
+  ],
+  "type": "generic"
+}

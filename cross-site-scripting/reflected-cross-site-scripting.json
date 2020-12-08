@@ -1,0 +1,29 @@
+{
+  "cia": [
+    "integrity"
+  ],
+  "depends on": [
+    "victim’s interaction",
+    "victim’s browser"
+  ],
+  "description": "an adversary may inject malicious content into http requests. The content will be reflected in the http response and executed in the victim’s browser",
+  "examples": {},
+  "id": "cb251c97-067d-4f13-8195-4f918273f41b",
+  "impact": "high",
+  "names": [
+    "reflected cross-site scripting",
+    "reflected xss"
+  ],
+  "redemption": [
+    "input validation",
+    "output encoding"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/cross-site_scripting"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data"
+  ],
+  "type": "generic"
+}

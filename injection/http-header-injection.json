@@ -1,0 +1,29 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may inject malicious data into the hypertext transfer protocol (http) header causing the target to perform non-intended actions",
+  "examples": {},
+  "id": "65fb3ed8-ddee-4e0b-b20e-2296fbfce320",
+  "impact": "high",
+  "names": [
+    "http header injection"
+  ],
+  "redemption": [
+    "input validation"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/http_header_injection"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

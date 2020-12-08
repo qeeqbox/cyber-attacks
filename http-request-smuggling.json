@@ -1,0 +1,43 @@
+{
+  "cia": [
+    "integrity"
+  ],
+  "depends on": [
+    "target's infrastructure"
+  ],
+  "description": "an adversary may craft a http request that contains another http request causing the targets to processes both requests instead of one",
+  "examples": {
+    "1": [
+      "a front-end proxy allows the get request to carry a request body and a back-end server does not",
+      "adversary crafts a get http request that contains another http request",
+      "adversary sends it to the front-end server",
+      "the front-end proxy server reads the content-length and confirms it's complete",
+      "the front-end proxy server sends it to the back-end server",
+      "the back-end server does not process content-length and ignores it",
+      "the back-end processes the body as another request"
+    ]
+  },
+  "id": "b66a6cd9-c1e1-4095-bebc-5d4b80e214ad",
+  "impact": "vary",
+  "names": [
+    "http request smuggling"
+  ],
+  "redemption": [
+    "http/2 for back-end connections",
+    "utilize same software on front-end and back-end",
+    "disable reuse of back-end connections",
+    "disallow double content-length"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/http_request_smuggling"
+  ],
+  "related": [],
+  "risk": [
+    "cross-site scripting",
+    "web cache poisoning",
+    "web cache deception",
+    "session hijacking",
+    "bypassing a web application firewall"
+  ],
+  "type": "generic"
+}

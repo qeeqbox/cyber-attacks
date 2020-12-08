@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "adversary's skills",
+    "brute-force tool"
+  ],
+  "description": "an adversary may guess the target credentials using a dictionary file",
+  "examples": {},
+  "id": "424bf6bf-cdaf-4ee1-b9dd-982508ed396c",
+  "impact": "high",
+  "names": [
+    "dictionary attack"
+  ],
+  "redemption": [
+    "increase password length",
+    "increase password complexity",
+    "limit login attempts",
+    "implement captcha",
+    "multi-factor authentication"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/brute-force_attack"
+  ],
+  "related": [],
+  "risk": [
+    "gain unauthorized access"
+  ],
+  "type": "attack"
+}

@@ -1,0 +1,29 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "template engines"
+  ],
+   "description":"an adversary may inject malicious template directives causing the target server to execute it",
+  "examples": {},
+  "id": "85b0dbbc-1d39-4d96-9816-319276d2c0e2",
+  "impact": "high",
+  "names": [
+    "template injection"
+  ],
+  "redemption": [
+    "indirect dynamic processing"
+  ],
+  "references": [
+    "https://www.tenable.com/plugins/was/112614"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

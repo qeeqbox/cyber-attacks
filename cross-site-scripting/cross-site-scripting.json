@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "integrity"
+  ],
+  "depends on": [
+    "victim’s interaction",
+    "victim’s browser"
+  ],
+  "description": "an adversary may inject malicious content into the target website or web application, which will be executed in the victim’s browser",
+  "examples": {},
+  "id": "8b4f35d1-18b0-4368-84a1-44ecbed2a386",
+  "impact": "high",
+  "names": [
+    "cross-site scripting",
+    "xss"
+  ],
+  "redemption": [
+    "x-xss-protection",
+    "content security policy",
+    "input validation",
+    "output encoding"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/cross-site_scripting"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data"
+  ],
+  "type": "generic"
+}

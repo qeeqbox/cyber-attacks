@@ -1,0 +1,26 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "adversary's skills"
+  ],
+  "description": "an adversary may access sensitive data that were hardcoded on the target application",
+  "examples": {},
+  "id": "555bdd29-65b6-4724-b9c6-193329adb525",
+  "impact": "vary",
+  "names": [
+    "hardcoded sensitive data"
+  ],
+  "redemption": [
+    "remove hardcoded sensitive data"
+  ],
+  "references": [
+    "https://wiki.sei.cmu.edu/confluence/display/java/msc03-j.+never+hard+code+sensitive+information"
+  ],
+  "related": [],
+  "risk": [
+    "data theft"
+  ],
+  "type": "attack"
+}

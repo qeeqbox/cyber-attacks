@@ -1,0 +1,27 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [],
+  "description": "an adversary may access sensitive data using a vulnable application",
+  "examples": {},
+  "id": "f8c03629-99da-4ec8-9288-3c4a13746d5a",
+  "impact": "critical",
+  "names": [
+    "information leakage",
+    "unintentional information disclosure",
+    "data leak",
+    "data spill"
+  ],
+  "redemption": [
+    "dlp policies"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/information_leakage"
+  ],
+  "related": [],
+  "risk": [
+    "data theft"
+  ],
+  "type": "attack"
+}

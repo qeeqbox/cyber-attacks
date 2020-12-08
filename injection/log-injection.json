@@ -1,0 +1,26 @@
+{
+  "cia": [
+    "integrity"
+  ],
+  "depends on": [
+    "target's log parser"
+  ],
+  "description": "an adversary may inject malicious data into target's log files",
+  "examples": {},
+  "id": "f5d01d19-7bf9-4b5a-afc4-aa0553005a35",
+  "impact": "high",
+  "names": [
+    "log injection"
+  ],
+  "redemption": [
+    "input validation"
+  ],
+  "references": [
+    "https://owasp.org/www-community/attacks/log_injection"
+  ],
+  "related": [],
+  "risk": [
+    "false entries"
+  ],
+  "type": "injection"
+}

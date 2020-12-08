@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity"
+  ],
+  "depends on": [],
+  "description": "an adversary may perform unauthorized functions by bypassing or abusing the target authorization mechanism",
+  "examples": {
+    "1": [
+      "developer forgets to remove an in-house debugging mechanism associated with user-agent",
+      "adversary finds out changing user-agent header to debug grants different or higher privileges",
+    ]
+  },
+  "id": "81354f9f-cc3f-4d15-9757-58a97c6661a8",
+  "impact": "high",
+  "names": [
+    "authorization bypass",
+  ],
+  "redemption": [
+    "validate access control",
+  ],
+  "references": [
+    "https://cwe.mitre.org/data/definitions/639.html"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}

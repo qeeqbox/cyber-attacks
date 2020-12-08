@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may alter lightweight directory access protocol (ldap) queries causing read, modify and write to organizations, individuals and resources data on the target system",
+  "examples": {},
+  "id": "30b33ab5-978d-4e8c-b98c-04572b61ed74",
+  "impact": "high",
+  "names": [
+    "ldap injection"
+  ],
+  "redemption": [
+    "input validation",
+    "escaping",
+    "directory authorization hardening"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/ldap_injection"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

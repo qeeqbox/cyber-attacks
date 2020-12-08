@@ -1,0 +1,29 @@
+{
+  "cia": [
+    "integrity"
+  ],
+  "depends on": [
+    "victim’s interaction",
+    "victim’s browser"
+  ],
+  "description": "an adversary may inject malicious content into a document object model (dom), which will be executed in the victim's browser",
+  "examples": {},
+  "id": "69ea6e4c-c43e-43c9-b581-a66fffe1283b",
+  "impact": "high",
+  "names": [
+    "dom based cross-site scripting",
+    "dom based xss"
+  ],
+  "redemption": [
+    "input validation",
+    "output encoding"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/cross-site_scripting"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data"
+  ],
+  "type": "generic"
+}

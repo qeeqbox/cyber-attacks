@@ -1,0 +1,32 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity"
+  ],
+  "depends on": [],
+  "description": "an adversary may perform unauthorized functions that require higher privileges level to perform",
+  "examples": {
+    "1": [
+      "adversary adds admin=true parameter to session cookie",
+      "target authorizes adversary with admin privileges"
+    ]
+  },
+  "id": "863d629b-d674-4320-81ca-0d9c767d4770",
+  "impact": "high",
+  "names": [
+    "vertical privilege escalation",
+    "vertical access control attack"
+  ],
+  "redemption": [
+    "validate access control"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/privilege_escalation"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "privilege escalation"
+}

@@ -1,0 +1,29 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [],
+  "description": "an adversary may access restricted files or directories outside the web document root directory",
+  "examples": {},
+  "id": "83d17715-a5b7-4ca6-a64d-b5d6f477cc99",
+  "impact": "high",
+  "names": [
+    "path traversal",
+    "directory traversal",
+    "directory climbing",
+    "backtracking",
+    "dot-dot-slash"
+  ],
+  "redemption": [
+    "input validation",
+    "whitelist"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/Directory_traversal_attack"
+  ],
+  "related": [],
+  "risk": [
+    "data theft"
+  ],
+  "type": "attack"
+}

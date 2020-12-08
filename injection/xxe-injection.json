@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may interfere with an application’s processing of extensible markup language (xml) data causing read to data or interact with the target system",
+  "examples": {},
+  "id": "4b3566ce-3f7f-40d8-b882-09f59ca967b8",
+  "impact": "high",
+  "names": [
+    "xxe injection",
+    "xml external entity injection"
+  ],
+  "redemption": [
+    "secure processing",
+    "disable dtds"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/xml_external_entity_attack"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

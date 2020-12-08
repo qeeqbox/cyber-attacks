@@ -1,0 +1,37 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "adversary's skill"
+  ],
+  "description": "an adversary may tamper with a stream that gets deserialized on the target causing the target to access data or perform non-intended actions",
+  "examples": {
+    "1": [
+      "an application sends serialized user's settings in a http request to backend api",
+      "adversary finds out how serialization works, and inject malicious actions with settings",
+      "the backend api deserialize the request and perform adversary's actions"
+    ]
+  },
+  "id": "cf41e681-2d05-45b8-9b07-6a0d0cc08450",
+  "impact": "high",
+  "names": [
+    "insecure deserialization",
+    "untrusted deserialization"
+  ],
+  "redemption": [
+    "use pure data format",
+    "deserialize signed data only"
+  ],
+  "references": [
+    "https://wiki.crashtest-security.com/insecure-deserialization/"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}

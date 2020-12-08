@@ -1,0 +1,29 @@
+{
+  "cia": [
+    "integrity"
+  ],
+  "depends on": [
+    "victim’s interaction",
+    "victim’s browser"
+  ],
+  "description": "an adversary may inject malicious content into website or applications storage. When content is retrieved from the storage, it gets executed in the victim's browser",
+  "examples": {},
+  "id": "4e267d71-5af0-4a49-a197-9472104fa295",
+  "impact": "high",
+  "names": [
+    "stored cross-site scripting",
+    "stored xss"
+  ],
+  "redemption": [
+    "input validation",
+    "output encoding"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/cross-site_scripting"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data"
+  ],
+  "type": "generic"
+}

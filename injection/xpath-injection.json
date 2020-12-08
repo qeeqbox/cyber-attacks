@@ -1,0 +1,30 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may alter xml path language (xpath) queries for extensible markup language (xml) causing read and modify to data or information",
+  "examples": {},
+  "id": "6c020d48-9b20-4011-a513-36676994ee8e",
+  "impact": "high",
+  "names": [
+    "xpath injection"
+  ],
+  "redemption": [
+    "input validation",
+    "parametrized queries"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/xpath"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}

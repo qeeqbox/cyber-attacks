@@ -1,0 +1,54 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "victim's browser",
+    "victim's interaction"
+  ],
+  "description": "an adversary may trick an authenticated or trusted victim into transmitting unauthorized actions on their behalf",
+  "examples": {
+    "1": [
+      "adversary crafts an exploit url for a fund transfer from a vulnerable website",
+      "bob logs in to the vulnerable website (bob is authenticated - session cookie is saved)",
+      "adversary tricks bob into clicking on the exploit url",
+      "bob clicks on the exploit url",
+      "bob's browser loads the session cookie and performs fund transfer"
+    ],
+    "2": [
+      "adversary crafts an exploit for a fund transfer from a vulnerable website",
+      "adversary uploads the exploit to a malicious website",
+      "bob logs in to the vulnerable website (bob is authenticated - session cookie is saved)",
+      "adversary tricks bob into clicking on the malicious website",
+      "bob clicks on the malicious website",
+      "bob's browser loads the session cookie and performs fund transfer"
+    ]
+  },
+  "id": "776dd60c-c1de-46a3-a104-25cd836e24b6",
+  "impact": "vary",
+  "names": [
+    "cross-site request forgery",
+    "xsrf",
+    "sea surf",
+    "session riding",
+    "cross-site reference forgery",
+    "hostile linking"
+  ],
+  "redemption": [
+    "header verification",
+    "challenge-response",
+    "anti-csrf tokens",
+    "samesite cookies"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/cross-site_request_forgery"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}

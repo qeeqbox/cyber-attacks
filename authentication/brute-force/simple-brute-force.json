@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "adversary's skills",
+    "brute-force tool"
+  ],
+  "description": "an adversary may guess the target credentials using all possible combinations of different characters, numbers, symbols one at the time",
+  "examples": {},
+  "id": "0faff08c-4b9d-42af-bdc2-7393a41aae2c",
+  "impact": "high",
+  "names": [
+    "simple-brute force attack"
+  ],
+  "redemption": [
+    "increase password length",
+    "increase password complexity",
+    "limit login attempts",
+    "implement captcha",
+    "multi-factor authentication"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/brute-force_attack"
+  ],
+  "related": [],
+  "risk": [
+    "gain unauthorized access"
+  ],
+  "type": "attack"
+}

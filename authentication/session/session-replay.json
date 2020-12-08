@@ -1,0 +1,42 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity"
+  ],
+  "depends on": [
+    "victim's infrastructure"
+  ],
+  "description": "Adversary may re-use a stolen or leaked session identifier to access the user’s account",
+  "examples": {
+    "1": [
+      "adversary obtains a valid session identifier and does not use it immediately",
+      "adversary re-using the same session identifier to gain unauthorized access to bob's account"
+    ],
+    "2": [
+      "bob submits a request to buy an item from a vulnerable website",
+      "adversary finds the request and tricks bob into re-submitting it",
+      "the vulnerable website receives both requests with the same session identifier and processes them"
+    ]
+  },
+  "id": "fe0561ad-6ce7-4cf3-a229-eb136ad1f919",
+  "impact": "high",
+  "names": [
+    "session replay attack"
+  ],
+  "redemption": [
+    "identity confirmation",
+    "regenerate session ids at authentication",
+    "timeout and replace old session ids",
+    "store ids in http cookies"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/session_hijacking"
+  ],
+  "related": [],
+  "risk": [
+    "gain unauthorized access",
+    "read & modify data",
+    "perform actions"
+  ],
+  "type": "session"
+}
