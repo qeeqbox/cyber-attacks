@@ -13,7 +13,7 @@
   ],
   "redemption": [
     "input validation",
-    "access control check"
+    "validate access control"
   ],
   "references": [
     "https://www.tutorialspoint.com/security_testing/insecure_direct_object_reference.htm"
