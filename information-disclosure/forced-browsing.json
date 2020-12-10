@@ -13,7 +13,7 @@
     "file enumeration"
   ],
   "redemption": [
-    "access control check"
+    "validate access control"
   ],
   "references": [
     "https://www.computerweekly.com/answer/Forced-browsing-Understanding-and-halting-simple-browser-attacks"
