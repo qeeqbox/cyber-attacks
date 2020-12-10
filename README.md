@@ -54,7 +54,7 @@ A collection of attacks and vulnerabilities meta files that were used in my prev
   "redemption": [
     "x-frame-options",
     "framebusting",
-    "use captcha",
+    "implement captcha",
     "samesite cookies",
     "element randomization"
   ],
