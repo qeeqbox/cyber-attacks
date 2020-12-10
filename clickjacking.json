@@ -28,7 +28,7 @@
   "redemption": [
     "x-frame-options",
     "framebusting",
-    "use captcha",
+    "implement captcha",
     "samesite cookies",
     "element randomization"
   ],
