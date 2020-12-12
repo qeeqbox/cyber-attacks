@@ -20,7 +20,7 @@
   "impact": "critical",
   "names": [
     "heap based overflow",
-    "heap based buffer overflow,
+    "heap based buffer overflow",
     "heap buffer overrun"
   ],
   "redemption": [
