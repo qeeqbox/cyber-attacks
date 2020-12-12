@@ -1,0 +1,42 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "adversary's skill",
+    "victim’s infrastructure"
+  ],
+  "description": "an adversary may inject a malicious payload on the target's stack causing non-intended actions (a stack is collection of components that work together to support the execution of the target)",
+  "examples": {
+    "1": [
+      "adversary constructs a crafted reverse shell based on the target infrastructure",
+      "adversary injects the payload on the target stack",
+      "the vulnerable target executes the payload, which communicates back to adversary machine"
+    ]
+  },
+  "id": "24b99698-fff9-4a75-8ba4-d2dd18fe9292",
+  "impact": "critical",
+  "names": [
+    "stack based overflow",
+    "stack based buffer overflow,
+    "stack buffer overrun"
+  ],
+  "redemption": [
+    "data execution prevention",
+    "address space layout randomization",
+    "structured exception handler overwrite protection",
+    "bounds checking",
+    "static code analysis"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/Buffer_overflow"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}
