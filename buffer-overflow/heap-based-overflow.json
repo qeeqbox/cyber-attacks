@@ -1,0 +1,42 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "adversary's skill",
+    "victim’s infrastructure"
+  ],
+  "description": "an adversary may inject a malicious payload on the target's heap causing non-intended actions (a heap is memory set which used for dynamic allocation - data created create on the fly - Heap is a hierarchical data structure)",
+  "examples": {
+    "1": [
+      "adversary constructs a crafted shell based on the target infrastructure",
+      "adversary injects the payload on the target heap",
+      "vulnerable target executes the payload, which opens a connection waiting for adversary to connect with"
+    ]
+  },
+  "id": "6caaad76-8d8d-4285-bbd7-e5b9ccbd7810",
+  "impact": "critical",
+  "names": [
+    "heap based overflow",
+    "heap based buffer overflow,
+    "heap buffer overrun"
+  ],
+  "redemption": [
+    "data execution prevention",
+    "address space layout randomization",
+    "structured exception handler overwrite protection",
+    "bounds checking",
+    "static code analysis"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/Buffer_overflow"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}
