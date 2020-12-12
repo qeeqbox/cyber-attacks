@@ -13,7 +13,7 @@
     "1": [
       "adversary constructs a crafted reverse shell based on the target infrastructure",
       "adversary injects the payload on the target stack",
-      "the vulnerable target executes the payload, which communicates back to adversary machine"
+      "vulnerable target executes the payload, which communicates back to adversary machine"
     ]
   },
   "id": "24b99698-fff9-4a75-8ba4-d2dd18fe9292",
