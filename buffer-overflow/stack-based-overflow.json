@@ -8,7 +8,7 @@
     "adversary's skill",
     "victim’s infrastructure"
   ],
-  "description": "an adversary may inject a malicious payload on the target's stack causing non-intended actions (a stack is collection of components that work together to support the execution of the target)",
+  "description": "an adversary may inject a malicious payload on the target's stack causing non-intended actions (a stack is collection of components that work together to support the execution of the target - A stack is a linear data structure)",
   "examples": {
     "1": [
       "adversary constructs a crafted reverse shell based on the target infrastructure",
