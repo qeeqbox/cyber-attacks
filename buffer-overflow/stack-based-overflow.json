@@ -20,7 +20,7 @@
   "impact": "critical",
   "names": [
     "stack based overflow",
-    "stack based buffer overflow,
+    "stack based buffer overflow",
     "stack buffer overrun"
   ],
   "redemption": [
