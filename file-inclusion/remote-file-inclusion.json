@@ -5,7 +5,7 @@
     "availability"
   ],
   "depends on": [],
-  "description": "an adversary may use a malicious file url on a vulnerable target causing it to execute it",
+  "description": "an adversary may trick a vulnerable target to include/retrieve remote file",
   "examples": {
     "1": [
       "adversary uploads a php web shell to a temporary file service",
