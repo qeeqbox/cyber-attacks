@@ -1,0 +1,35 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [],
+  "description": "an adversary may use a malicious file url on a vulnerable target causing it to execute it",
+  "examples": {
+    "1": [
+      "adversary uploads a php web shell to a temporary file service",
+      "adversary sends file url to a vulnerable target",
+      "vulnerable target executes malicious file as php"
+    ]
+  },
+  "id": "2bda1e06-5f17-4b20-961f-916718d5d575",
+  "impact": "high",
+  "names": [
+    "remote file inclusion",
+    "rfi"
+  ],
+  "redemption": [
+    "input validation",
+    "whitelist"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/file_inclusion_vulnerability"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}
