@@ -1,0 +1,45 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "adversary's skill",
+    "victim’s infrastructure"
+  ],
+  "description": "an adversary may inject a malicious payload on the target's stack causing non-intended actions by corrupting the seh and nseh records - exception registration record (seh) is a pointer to the current exception record, the next exception registration record is a pointer to the next exception record (nseh)",
+  "examples": {
+    "1": [
+      "adversary constructs a crafted shell based on the target infrastructure",
+      "adversary injects the payload on the target stack",
+      "vulnerable target executes the payload",
+      "payload overwrites the seh and nseh with malicious content",
+      "vulnerable target opens a connection waiting for adversary to connect with"
+    ]
+  },
+  "id": "5be4b455-ec16-4219-a7e8-c125bd00be38",
+  "impact": "critical",
+  "names": [
+    "seh overflow",
+    "seh buffer overflow",
+    "seh based buffer overflow",
+    "seh overwrite attack"
+  ],
+  "redemption": [
+    "data execution prevention",
+    "address space layout randomization",
+    "structured exception handler overwrite protection",
+    "bounds checking",
+    "static code analysis"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/buffer_overflow"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}
