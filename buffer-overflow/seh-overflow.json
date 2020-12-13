@@ -15,7 +15,7 @@
       "adversary injects the payload on the target stack",
       "vulnerable target executes the payload",
       "payload overwrites the seh and nseh with malicious content",
-      "vulnerable target opens a connection waiting for adversary to connect with"
+      "vulnerable target opens a connection waiting for adversary to connect"
     ]
   },
   "id": "5be4b455-ec16-4219-a7e8-c125bd00be38",
