@@ -1,0 +1,38 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [],
+  "description": "an adversary may trick a vulnerable target to include/retrieve local file",
+  "examples": {
+    "1": [
+      "adversary uploads a asp web shell to a vulnerable target",
+      "vulnerable target executes malicious file as asp"
+    ],
+    "2": [
+      "adversary inputs ../../../etc/passwd on a vulnerable target",
+      "vulnerable target includes the local passwd file"
+    ]
+  },
+  "id": "acbe22c0-df8d-4e73-97ec-389e1f9dbb26",
+  "impact": "high",
+  "names": [
+    "local file inclusion",
+    "lfi"
+  ],
+  "redemption": [
+    "input validation",
+    "whitelist"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/file_inclusion_vulnerability"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "generic"
+}
