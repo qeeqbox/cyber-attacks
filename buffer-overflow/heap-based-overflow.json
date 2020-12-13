@@ -13,7 +13,7 @@
     "1": [
       "adversary constructs a crafted shell based on the target infrastructure",
       "adversary injects the payload on the target heap",
-      "vulnerable target executes the payload, which opens a connection waiting for adversary to connect with"
+      "vulnerable target executes the payload, which opens a connection waiting for adversary to connect"
     ]
   },
   "id": "6caaad76-8d8d-4285-bbd7-e5b9ccbd7810",
