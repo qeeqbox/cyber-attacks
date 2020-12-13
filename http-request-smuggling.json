@@ -11,9 +11,9 @@
       "a front-end proxy allows the get request to carry a request body and a back-end server does not",
       "adversary crafts a get http request that contains another http request",
       "adversary sends it to the front-end server",
-      "the front-end proxy server reads the first content-length and confirms it's complete",
+      "the front-end proxy server reads the content-length and confirms it's complete",
       "the front-end proxy server sends it to the back-end server",
-      "the back-end server does not process second content-length and ignores it",
+      "the back-end server does not process content-length and ignores it",
       "the back-end processes the body as another request"
     ]
   },
