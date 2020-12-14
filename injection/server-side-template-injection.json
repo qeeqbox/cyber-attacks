@@ -12,7 +12,7 @@
   "id": "85b0dbbc-1d39-4d96-9816-319276d2c0e2",
   "impact": "high",
   "names": [
-    "template injection"
+    "server-side template injection"
   ],
   "redemption": [
     "indirect dynamic processing"
