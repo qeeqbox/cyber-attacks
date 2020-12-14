@@ -1,0 +1,30 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "template engines",
+    "victim's browser"
+  ],
+   "description":"an adversary may inject malicious payload causing the victim's browser to execute it",
+  "examples": {},
+  "id": "a2b74614-c10e-4b2a-af92-7c17277a8756",
+  "impact": "high",
+  "names": [
+    "client template injection"
+  ],
+  "redemption": [
+    "indirect dynamic processing"
+  ],
+  "references": [
+    "https://www.tenable.com/plugins/was/112614"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}
