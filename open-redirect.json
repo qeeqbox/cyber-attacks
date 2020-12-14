@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may pass a link or malicious payload to a vulnerable target causing it to creates a redirect to the link or execute the payload",
+  "examples": {
+  },
+  "id": "5b1461b7-187c-4fa4-87fe-4854ab5cdc40",
+  "impact": "normal",
+  "names": [
+    "open redirect",
+    "unvalidated redirects and forwards"
+  ],
+  "redemption": [
+    "whitelist"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/url_redirection"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}
