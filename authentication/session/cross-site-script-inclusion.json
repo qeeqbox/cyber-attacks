@@ -1,0 +1,38 @@
+{
+  "cia": [
+    "confidentiality"
+  ],
+  "depends on": [
+    "victim's browser",
+    "victim's interaction"
+  ],
+  "description": "an adversary may trick an authenticated or trusted victim into leaking sensitive data on their behalf",
+  "examples": {
+    "1": [
+      "adversary crafts an exploit for leaking a secret value from a vulnerable website",
+      "adversary uploads the exploit to a malicious website",
+      "bob logs in to the vulnerable website (bob is authenticated - session cookie is saved)",
+      "adversary tricks bob into clicking on the malicious website",
+      "bob clicks on the malicious website",
+      "bob's browser loads the session cookie and performs reveal the secret value"
+    ]
+  },
+  "id": "d15d5c49-6a7c-48b8-bc57-e92dd23803d7",
+  "impact": "vary",
+  "names": [
+    "cross-site script inclusion",
+    "xssi"
+  ],
+  "redemption": [
+    "avoid sensitive inside javascript and json",
+    "x-content-type-options: nosniff"
+  ],
+  "references": [
+    "https://en.wikipedia.org/wiki/cross-site_request_forgery"
+  ],
+  "related": [],
+  "risk": [
+    "read data"
+  ],
+  "type": "generic"
+}
