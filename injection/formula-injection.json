@@ -1,0 +1,31 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may inject malicious payload into the target spreadsheet causing non-intended action when payload is triggered",
+  "examples": {},
+  "id": "15132356-c521-4c22-96de-838023efd1b5",
+  "impact": "critical",
+  "names": [
+    "formula injection",
+    "spreadsheet formula injection",
+    "csv injection"
+  ],
+  "redemption": [
+    "difficult to mitigate"
+  ],
+  "references": [
+    "https://owasp.org/www-community/attacks/csv_injection"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}
