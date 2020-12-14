@@ -14,7 +14,9 @@
   "impact": "normal",
   "names": [
     "open redirect",
-    "unvalidated redirects and forwards"
+    "unvalidated redirects and forwards",
+    "header-based open redirection",
+    "javascript-based open redirection"
   ],
   "redemption": [
     "whitelist"
