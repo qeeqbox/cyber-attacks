@@ -1,0 +1,30 @@
+{
+  "cia": [
+    "confidentiality",
+    "integrity",
+    "availability"
+  ],
+  "depends on": [
+    "target's privileges"
+  ],
+  "description": "an adversary may alter extensible stylesheet language transformations (xslt) to change the structure and contents of extensible markup language (xml) causing read and modify to data or information",
+  "examples": {},
+  "id": "012e4a7b-b8ae-44a6-9b6f-08d24cf7dba2",
+  "impact": "high",
+  "names": [
+    "xslt injection"
+  ],
+  "redemption": [
+    "input validation",
+    "parametrized queries"
+  ],
+  "references": [
+    "https://www.acunetix.com/vulnerabilities/web/xslt-injection/"
+  ],
+  "related": [],
+  "risk": [
+    "read & modify data",
+    "execute commands"
+  ],
+  "type": "injection"
+}
