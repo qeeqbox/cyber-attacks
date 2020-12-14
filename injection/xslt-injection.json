@@ -7,7 +7,7 @@
   "depends on": [
     "target's privileges"
   ],
-  "description": "an adversary may interfere with an application’s processing extensible stylesheet language transformations (xslt) for markup language (xml) causing read and modify to data or information",
+  "description": "an adversary may interfere with an application’s processing of extensible stylesheet language transformations (xslt) for markup language (xml) causing read and modify to data or information",
   "examples": {},
   "id": "012e4a7b-b8ae-44a6-9b6f-08d24cf7dba2",
   "impact": "high",
