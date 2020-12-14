@@ -2,7 +2,6 @@
   "cia": [
     "confidentiality",
     "integrity",
-    "availability"
   ],
   "depends on": [
     "target's privileges"
