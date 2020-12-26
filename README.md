@@ -1,5 +1,5 @@
 ## CyberAttacks
-A collection of attacks and vulnerabilities meta files that were used in my previous pentest tools
+A collection of attacks and vulnerabilities meta files that were used in my previous pentest tools. 
 
 ## List
 ```
@@ -136,4 +136,5 @@ A collection of attacks and vulnerabilities meta files that were used in my prev
 ```
 
 ## Disclaimer\Notes
-- Use these as an idea or example of what could happen
+- Use these the metadata as an idea or example of what could happen
+- Some values should be changed depending on the target implementation and infrastructure (E.g. CIA values)
