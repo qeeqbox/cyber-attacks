@@ -1,8 +1,6 @@
 {
   "cia": [
-    "confidentiality",
-    "integrity",
-    "availability"
+    "confidentiality"
   ],
   "depends on": [
     "target's privileges"
@@ -24,8 +22,7 @@
   ],
   "related": [],
   "risk": [
-    "read & modify data",
-    "execute commands"
+    "read data"
   ],
   "type": "injection"
 }
